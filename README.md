@@ -1,8 +1,9 @@
 # bADAss_team_project
-
+ 
 ## Abstract
 According to the Food and Agriculture Organization of the United Nations (FAO), there are approximately 842 million people around the world suffering from chronic hunger. Hunger is a dramatic and complex consequence of a combination of factors. 
-Based on the data set “Global Food & Agriculture Statistics” published by the United Nations, which gathers data on primary food production and surface dedicated to agriculture in 200 countries, we aim to provide an insight of the relation between agriculture and hunger in given countries. By enriching the dataset with other datasets available on “UNdata” database (http://data.un.org/Explorer.aspx?d=FAO&f=itemCode%3a21033), we hypothesize we could further link food insecurity with environmental and economic aspects (e.g. food exportations) of agriculture and perhaps unveil unknown or neglected factors in most general studies.
+Based on the data set “Global Food & Agriculture Statistics” published by the United Nations, which gathers data on primary food production and surface dedicated to agriculture in 200 countries, we aim to provide an insight of the relation between agriculture and hunger in given countries. By enriching the dataset with other datasets available on “UNdata” database (http://data.un.org/Explorer.aspx?d=FAO&f=itemCode%3a21033), we hypothesize we could further link food insecurity with environmental and economic aspects (e.g. food exportations) of agriculture and perhaps unveil unknown or neglected factors in most general studies. 
+
 Finally, a rather qualitative prediction of hunger in the coming years will be given, based on the past and actual tendencies of food production shortage. 
 
 ## Research questions
