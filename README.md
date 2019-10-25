@@ -34,9 +34,9 @@ Finally, a rather qualitative prediction of hunger in the coming years will be g
 * Find complementary datasets (**data enrichment**)
 * Research on malnutrition / hunger 
 * What are the causes and consequences ? (wars, bad economy, politics, embargo...)
-** on individuals
-** on regions
-** on nations.
+  * on individuals
+  * on regions
+  * on nations.
 * Learn how to use folium to implement interactive maps 
 
 ## Questions for TAs
