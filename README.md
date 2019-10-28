@@ -1,4 +1,4 @@
-# Insight of world agriculture production and the link to global hunger
+# Insight into world agriculture production and its links to global hunger
  
 ## Abstract
 According to the Food and Agriculture Organization of the United Nations (FAO), there are approximately 842 million people around the world suffering from chronic hunger. Hunger is a dramatic and complex consequence of a combination of factors. 
