@@ -28,7 +28,7 @@ Finally, a rather qualitative prediction of hunger in the coming years will be g
 (We still need to find a specific  database for those 3 last categories of data)
 
 ## A list of internal milestones up until project milestone 2
-* Load / read data (**data exporation**)
+* Load / read data (**data exploration**)
 * Handle weird and missing datas (**data preprocessing**)
 * Illustrate what is in our first dataset by plotting some graphs before searching links with others datasets. (studying our principale data set) (**data visualization**)
 * Research to interpret the datas and our future results
