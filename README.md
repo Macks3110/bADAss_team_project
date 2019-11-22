@@ -43,3 +43,19 @@ Finally, a rather qualitative prediction of hunger in the coming years will be g
 ## Questions for TAs
 * Is the content we have enough to make a good project?
 * As we are trying to find additional datasets, could we ask you for help if we are struggling? Do you think we should stick to 2-3 datasets max?
+
+## Update Milestone 2
+
+## After looking deep into our dataset we redefined 
+
+We will focus on Switzerland compared to other european countries. 
+We want to know if Switzerland could be self-sufficient in term of food production.
+First we will look at the current productions of Switzerland in our dataset. What does it produce and in which quantity?
+We will try to find datasets on swiss importations and exportations to know what Switzerland need. We could also look at the consumption trends of the swiss population.
+We will also try to compute the switzerland potential in term of agriculture. Does the country use all his land or not? Demography of Switzerland: with the growing population, can we feed everybody with Swiss agriculture in the next few years for example?
+How's been the productivity over the years? Is it growing, decreasing? What are the factors correlated with the trend? Temperature rise, fertilizer usage?
+
+
+Then we will make comparaisons between Switzerland and other european countries. Does CH import more than the average european country (due to its small size ?) ?
+
+Is food selfsuffience of CH realistic ? How many farmer would it need ? 
