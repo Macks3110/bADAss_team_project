@@ -1,12 +1,14 @@
 # Insight into world agriculture production and its links to global hunger
  
-## Abstract
+## Milestone #1
+
+### Abstract
 According to the Food and Agriculture Organization of the United Nations (FAO), there are approximately 842 million people around the world suffering from chronic hunger. Hunger is a dramatic and complex consequence of a combination of factors. 
 Based on the data set “Global Food & Agriculture Statistics” published by the United Nations, which gathers data on primary food production and surface dedicated to agriculture in 200 countries, we aim to provide an insight into the relation between agriculture and hunger in given countries. By enriching the main dataset (Global F&A Stats) with other datasets available on “UNdata” database (http://data.un.org/Explorer.aspx?d=FAO&f=itemCode%3a21033), we hypothesize we could further link food insecurity with environmental and economic aspects (e.g. food exportations) of agriculture and perhaps unveil unknown or neglected factors in most general studies. 
 
 Finally, a rather qualitative prediction of hunger in the coming years will be given, based on the past and actual tendencies of food production shortage. 
 
-## Research questions
+### Research questions
 * How did the harvested area in each country evolve throughout years?
 * Do crops have a stable yield throughout years (e.g. decrease in fileds productivity, …)?
 * What are the principal foodstuffs produced in each country/region of the world? Did it change in the last decades?
@@ -16,7 +18,7 @@ Finally, a rather qualitative prediction of hunger in the coming years will be g
 * Can we link this data to health issues that countries are facing by including other datasets?
 * What is the fraction of food that is dedicated to exportations in each country and how does this impact the health of the local population?
 
-## Dataset
+### Dataset
 * Global Food and Agriculture Statistics
 * Suite of Food Security Indicators: Value of food imports in total merchandise exports (percent) (3-year average) 
 >(“This indicator provides a measure of vulnerability and captures the adequacy of foreign exchange reserves to pay for food imports, which has implications for national food security depending on production and trade patterns.”)
@@ -27,7 +29,7 @@ Finally, a rather qualitative prediction of hunger in the coming years will be g
 
 (We still need to find a specific  database for those 3 last categories of data)
 
-## A list of internal milestones up until project milestone 2
+### A list of internal milestones up until project milestone 2
 * Load / read data (**data exploration**)
 * Handle weird and missing datas (**data preprocessing**)
 * Illustrate what is in our first dataset by plotting some graphs before searching links with others datasets. (studying our principale data set) (**data visualization**)
@@ -40,22 +42,50 @@ Finally, a rather qualitative prediction of hunger in the coming years will be g
   * on nations.
 * Learn how to use folium to implement interactive maps 
 
-## Questions for TAs
+### Questions for TAs
 * Is the content we have enough to make a good project?
 * As we are trying to find additional datasets, could we ask you for help if we are struggling? Do you think we should stick to 2-3 datasets max?
 
-## Update Milestone 2
+## Milestone #2 - Project Updates
 
-## After looking deep into our dataset we redefined 
+### Abstarct - More realistic project 
 
-We will focus on Switzerland compared to its neighbours. 
-We want to know if Switzerland could be self-sufficient in term of food production.
+In the wake of the the years 2007-08, food self-sufficiency policies have gained increased attention in a number of coutries following the international food crisis that triggered great volatilities on the world food markets causing important economic and social damages. <br>
+Since then, diverse countries have expressed interest in improving their levels of food self-sufficiency arising controversy into a massive economically connected world.
+
+On the 23th september of 2018, in the small country of Switzerland, the debate is materialized into a popular referendum submitted to its population asking wherever a food self-sufficiency politic should be adopted or not. Such a politic could have unexpected consequences considering a country as Switzerland with many neighbours and such a small area capacity. <br>
+This paper aims to analyse the questions surrounding the debate over food self-sufficiency in Switzerland. 
+
+We will therefore focus on Switzerland compared to its neighbours. We would like to know if Switzerland could be self-sufficient in term of food production.
 First we will look at the current productions of Switzerland in our dataset. What does it produce and in which quantity?
-We will try to find datasets on swiss importations and exportations to know what Switzerland need. We could also look at the consumption trends of the swiss population.
+We will try to find datasets on swiss importations and exportations to know what Switzerland need. Does CH import more than its neighbours (due to its small size ?) ? We could also look at the consumption trends of the swiss population.
 We will also try to compute the switzerland potential in term of agriculture. Does the country use all his land or not? Demography of Switzerland: with the growing population, can we feed everybody with Swiss agriculture in the next few years for example?
 How's been the productivity over the years? Is it growing, decreasing? What are the factors correlated with the trend? Temperature rise, fertilizer usage?
-
-
-Then we will make comparaisons between Switzerland and its neighbours. Does CH import more than its neighbours (due to its small size ?) ?
-
 Is food selfsuffience of CH realistic ? How many farmer would it need ? 
+
+### Plan for milestone #3
+
+1. Defining what is food self-sufficiency
+    1. $ SSR = Production * 100 / (Production + Imports - Exports)$ to develop
+    2. Addapt it to the Swiss case : take a look to what we import (basic needs ?), export (top exports ? by far ?) and production graphs *(Already started)*
+    3. __[Ref. Paper "Food self-sufficiency: Making sense of it, and when it makes sense" By Jennifer Clapp](https://www.sciencedirect.com/science/article/pii/S0306919216305851#b0240)__. <br> Résumé : __[Résumé par le site Resilience du paper de Clapp](https://www.resilience.org/stories/2018-03-13/food-self-sufficiency-does-it-make-sense/)__
+    4. Compare our results with other sources just to know if we share the same results (e.g. selfsufficiency switzerland on wikipedia __[List of countries by food self-sufficieent rate](https://en.wikipedia.org/wiki/List_of_countries_by_food_self-sufficiency_rate)__
+
+    
+2. Food situation of Switzerland from 1961 to 2016.
+    1. Is/was it food self-sufficient ? SSR scores over the years.
+    2. Comapre to neighbours
+
+    
+3. Will it be **physically** possible for Switzerland in a near future to be food self-sufficient (in the sense of the 2018 initiative bc we have seen that definition is relative) taking into account its population growth (hesimated increase in consumption computation)? What would it imply/take into account in terms of :
+    1. Area harvested (actual ratio and estimation of its evolution)
+    2. Farmers population 
+    3. Temperature (climate impact food production correlation)
+    4. Environment (use of fertilizers needed ? depends on productivity)
+
+    
+4. Attempt on **economy** consequences analysis ?
+    1. Complicated ... What about looking at what happended in countries that adopted food self-sufficient policies such as Senegal, India, the Philippines, Qatar, Bolivia, and Russia ? Peut être résolu par des jaccard et des correlations ?
+    2. Jaccard similarity of country based on SSR to see which country should adopt more food self-sufficient policies ? 
+
+In order to answer all those questions, we will go further into the "correlation study" of our data.
