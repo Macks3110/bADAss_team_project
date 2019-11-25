@@ -72,20 +72,21 @@ Is food selfsuffience of CH realistic ? How many farmer would it need ?
     4. Compare our results with other sources just to know if we share the same results (e.g. selfsufficiency switzerland on wikipedia __[List of countries by food self-sufficieent rate](https://en.wikipedia.org/wiki/List_of_countries_by_food_self-sufficiency_rate)__
 
     
-2. Food situation of Switzerland from 1961 to 2016.
+2. Food situation of Switzerland from 1986 to 2017.
     1. Is/was it food self-sufficient ? SSR scores over the years.
-    2. Comapre to neighbours
+    2. Compare SSR score to neighbour countries. Hence, can Switzerland increase its SSR to 
 
     
-3. Will it be **physically** possible for Switzerland in a near future to be food self-sufficient (in the sense of the 2018 initiative bc we have seen that definition is relative) taking into account its population growth (hesimated increase in consumption computation)? What would it imply/take into account in terms of :
-    1. Area harvested (actual ratio and estimation of its evolution)
-    2. Farmers population 
-    3. Temperature (climate impact food production correlation)
+3. Predictive model
+Will it be **physically** possible for Switzerland in a near future to be food self-sufficient (in the sense of the 2018 initiative bc we have seen that definition is relative)? 
+This model will have the following features and would predict the total production for a given agricultural good:
+    1. Area harvested (actual ratio and estimation of its evolution). Can the harvested area be increased enough given Switzerland small  superficy?
+    2. Demography
+    3. Temperature (correlation between temperature and )
     4. Environment (use of fertilizers needed ? depends on productivity)
-
     
-4. Attempt on **economy** consequences analysis ?
-    1. Complicated ... What about looking at what happended in countries that adopted food self-sufficient policies such as Senegal, India, the Philippines, Qatar, Bolivia, and Russia ? (Use of Jaccard and/or correlations?)
-    2. Jaccard similarity of country based on SSR to see which country should adopt more food self-sufficient policies ? 
+    Le modele devrait retourner le pourcentage de terre qu'on peut allouer en plus pour chaque aliments en fonction de tous les aliments, des terres disponibles pour l'agriculture, de la temperature et de la demographie. Une fois qu'on aura ce pourcentage de terre ajouter à celle déja existante alors on pourra calculer l'augmentation de la production de chaque aliments et donc voir si on reduits les iportations de la suisse pour chaque aliments. Ainsi on pourra se faire une idee sur la possibilite de la self food sufficiency de la suisse. Ce modele sera run pour chaque qnnee jusqu'a 2060 par exemple
+    
+    ex: imaginons que ce modele prenne en compte la production de patates et de tomoates. En fonction des features données le modele retournera qu'il faut allouer 60% des terres encore dispo pour les patates et 40% pour les tomates. On y ajouteras les harea harvested deja existante et on calculera le production totale de pattates et de tomates puis on comparerra ces valeures aux valeurs importes.
 
 In order to answer all those questions, we will go further into the "correlation study" of our data.
