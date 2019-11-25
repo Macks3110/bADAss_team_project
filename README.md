@@ -66,7 +66,7 @@ Is food selfsuffience of CH realistic ? How many farmer would it need ?
 ### Plan for milestone #3
 
 1. Defining what is food self-sufficiency
-    1. $ SSR = Production * 100 / (Production + Imports - Exports)$ to develop
+    1.  SSR = Production * 100 / (Production + Imports - Exports) to develop
     2. Addapt it to the Swiss case : take a look to what we import (basic needs ?), export (top exports ? by far ?) and production graphs *(Already started)*
     3. __[Ref. Paper "Food self-sufficiency: Making sense of it, and when it makes sense" By Jennifer Clapp](https://www.sciencedirect.com/science/article/pii/S0306919216305851#b0240)__. <br> Résumé : __[Résumé par le site Resilience du paper de Clapp](https://www.resilience.org/stories/2018-03-13/food-self-sufficiency-does-it-make-sense/)__
     4. Compare our results with other sources just to know if we share the same results (e.g. selfsufficiency switzerland on wikipedia __[List of countries by food self-sufficieent rate](https://en.wikipedia.org/wiki/List_of_countries_by_food_self-sufficiency_rate)__
@@ -85,7 +85,7 @@ Is food selfsuffience of CH realistic ? How many farmer would it need ?
 
     
 4. Attempt on **economy** consequences analysis ?
-    1. Complicated ... What about looking at what happended in countries that adopted food self-sufficient policies such as Senegal, India, the Philippines, Qatar, Bolivia, and Russia ? Peut être résolu par des jaccard et des correlations ?
+    1. Complicated ... What about looking at what happended in countries that adopted food self-sufficient policies such as Senegal, India, the Philippines, Qatar, Bolivia, and Russia ? (Use of Jaccard and/or correlations?)
     2. Jaccard similarity of country based on SSR to see which country should adopt more food self-sufficient policies ? 
 
 In order to answer all those questions, we will go further into the "correlation study" of our data.
