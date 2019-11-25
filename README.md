@@ -68,7 +68,7 @@ Is food selfsuffience of CH realistic ? How many farmer would it need ?
 1. Defining what is food self-sufficiency
     1.  SSR = Production * 100 / (Production + Imports - Exports) to develop
     2. Addapt it to the Swiss case : take a look to what we import (basic needs ?), export (top exports ? by far ?) and production graphs *(Already started)*
-    3. __[Ref. Paper "Food self-sufficiency: Making sense of it, and when it makes sense" By Jennifer Clapp](https://www.sciencedirect.com/science/article/pii/S0306919216305851#b0240)__. <br> Résumé : __[Résumé par le site Resilience du paper de Clapp](https://www.resilience.org/stories/2018-03-13/food-self-sufficiency-does-it-make-sense/)__
+    3. __[Ref. Paper "Food self-sufficiency: Making sense of it, and when it makes sense" By Jennifer Clapp](https://www.sciencedirect.com/science/article/pii/S0306919216305851#b0240)__. <br> Summary : __[Summary by Clapp's "Resilience" website](https://www.resilience.org/stories/2018-03-13/food-self-sufficiency-does-it-make-sense/)__
     4. Compare our results with other sources just to know if we share the same results (e.g. selfsufficiency switzerland on wikipedia __[List of countries by food self-sufficieent rate](https://en.wikipedia.org/wiki/List_of_countries_by_food_self-sufficiency_rate)__
 
     
@@ -82,7 +82,7 @@ Will it be **physically** possible for Switzerland in a near future to be food s
 This model will have the following features and would predict the total production for a given agricultural good:
     1. Area harvested (actual ratio and estimation of its evolution). Can the harvested area be increased enough given Switzerland small  superficy?
     2. Demography
-    3. Temperature (correlation between temperature and )
+    3. Temperature (correlation between temperature and productivity )
     4. Environment (use of fertilizers needed ? depends on productivity)
     
     The model should return the percentage of land that could be allocated for each element in addition of the already existing lands. To compute this, the model will take into account the different food elements, the available land for agriculture, the temperatues and the demography. <br> Once we get this percentage, we can add it to the land already used for each country and calculate the increase in production for each food elements. Thus we could see if the importations can be reduce and conclude about the self food sufficiency of Switzerland. This model will be run on every years until 2030. 
