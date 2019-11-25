@@ -85,8 +85,6 @@ This model will have the following features and would predict the total producti
     3. Temperature (correlation between temperature and )
     4. Environment (use of fertilizers needed ? depends on productivity)
     
-    Le modele devrait retourner le pourcentage de terre qu'on peut allouer en plus pour chaque aliments en fonction de tous les aliments, des terres disponibles pour l'agriculture, de la temperature et de la demographie. Une fois qu'on aura ce pourcentage de terre ajouter à celle déja existante alors on pourra calculer l'augmentation de la production de chaque aliments et donc voir si on reduits les iportations de la suisse pour chaque aliments. Ainsi on pourra se faire une idee sur la possibilite de la self food sufficiency de la suisse. Ce modele sera run pour chaque qnnee jusqu'a 2060 par exemple
-    
-    ex: imaginons que ce modele prenne en compte la production de patates et de tomoates. En fonction des features données le modele retournera qu'il faut allouer 60% des terres encore dispo pour les patates et 40% pour les tomates. On y ajouteras les harea harvested deja existante et on calculera le production totale de pattates et de tomates puis on comparerra ces valeures aux valeurs importes.
+    The model should return the percentage of land that could be allocated for each element in addition of the already existing lands. To compute this, the model will take into account the different food elements, the available land for agriculture, the temperatues and the demography. <br> Once we get this percentage, we can add it to the land already used for each country and calculate the increase in production for each food elements. Thus we could see if the importations can be reduce and conclude about the self food sufficiency of Switzerland. This model will be run on every years until 2030. 
 
 In order to answer all those questions, we will go further into the "correlation study" of our data.
