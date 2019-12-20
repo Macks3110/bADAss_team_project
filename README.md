@@ -105,8 +105,11 @@ However, in spite of all the data gathered for this project, our model would sti
 ### Personal contributions
 Our group worked as a very close team, so each of us worked on almost each part of the code and analysis. And repport.
 
-Charlotte : Temperature Pearson coefficentients, Trade Networks, Normalization assumer
-Manon : Insight into territories organization, Interactive plots and html visualization, Tactile plotter
-Maxime : Importation and Exportation Trades and Networks, Supprimative Liechtenstein expert
-Marc : Scientific Literature Review, Employment Investigation, Poster preparation and Final Presentation, Coffee master and food provider
+- [x] Charlotte : Temperature Pearson coefficentients, Trade Networks, Normalization assumer
+
+- [x] Manon : Insight into territories organization, Interactive plots and html visualization, Tactile plotter
+
+- [x] Maxime : Importation and Exportation Trades and Networks, Supprimative Liechtenstein expert
+
+- [x] Marc : Scientific Literature Review, Employment Investigation, Poster preparation and Final Presentation, Coffee master and food provider
 
