@@ -113,3 +113,6 @@ Our group worked as a very close team, so each of us worked on almost each part 
 
 - [x] Marc : Scientific Literature Review, Employment Investigation, Poster preparation and Final Presentation, Coffee master and food provider.
 
+### Additional information
+You can find the html versions of all our interactive plots inside the doc folder. For the ipwydgets plots which could not be converted to html, we provided for them short movies on a zipped power point : Interactive_plots.pptx
+
