@@ -88,3 +88,25 @@ This model will have the following features and would predict the total producti
     The model should return the percentage of land that could be allocated for each element in addition of the already existing lands. To compute this, the model will take into account the different food elements, the available land for agriculture, the temperatues and the demography. <br> Once we get this percentage, we can add it to the land already used for each country and calculate the increase in production for each food elements. Thus we could see if the importations can be reduce and conclude about the self food sufficiency of Switzerland. This model will be run on every years until 2030. 
 
 In order to answer all those questions, we will go further into the "correlation study" of our data.
+
+## Milestone #3 - Final Project
+
+### What we have done
+According to what we  previously planned in milestone #2, we studied in details the Swiss Food Self Sufficiency Ratio. 
+Calculated over our dataset, the SSR score of Switzerland has never reached 100%, meaning that in the country, more food is consumed than produced. 
+
+Consequently, Switzerland needs to import a part as large as one third of its food supplies. Besides, the importations seem to increase to face the demographycal expansion of the country. However, those importations are mainly related to exotic products (such as bananas, berries, rice...) which cannot grow in Switzerland. This leads to a depandance of Switzerland on distant countries, in some cases even countries undergoing political crises. 
+
+To avoid dependance of such an unstable network, Switzerland would have to increase its SSR score. We discussed several propositions regarding the territory organization, the varieties of crops harvested, the use of pesticides and fertilizers or the employment in agriculture field. 
+
+### What we didn't
+However, in spite of all the data gathered for this project, our model would still have been an over-simplistic view of the agriculutural economy. We therefore focused on finding ways to improve Switzerland self-sufficiency score rather than builing a statistically unrelevant model.
+
+### Personal contributions
+Our group worked as a very close team, so each of us worked on almost each part of the code and analysis. And repport.
+
+Charlotte : Temperature Pearson coefficentients, Trade Networks, Normalization assumer
+Manon : Insight into territories organization, Interactive plots and html visualization, Tactile plotter
+Maxime : Importation and Exportation Trades and Networks, Supprimative Liechtenstein expert
+Marc : Scientific Literature Review, Employment Investigation, Poster preparation and Final Presentation, Coffee master and food provider
+
