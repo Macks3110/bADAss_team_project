@@ -93,14 +93,14 @@ In order to answer all those questions, we will go further into the "correlation
 
 ### What we have done
 According to what we  previously planned in milestone #2, we studied in details the Swiss Food Self Sufficiency Ratio. 
-Calculated over our dataset, the SSR score of Switzerland has never reached 100%, meaning that in the country, more food is consumed than produced. 
+Calculated over our dataset, the SSR score of Switzerland has never reached 100% since (at least) 1986, meaning that in the country, more food is consumed than produced. 
 
-Consequently, Switzerland needs to import a part as large as one third of its food supplies. Besides, the importations seem to increase to face the demographycal expansion of the country. However, those importations are mainly related to exotic products (such as bananas, berries, rice...) which cannot grow in Switzerland. This leads to a depandance of Switzerland on distant countries, in some cases even countries undergoing political crises. 
+Consequently, Switzerland needs to import a part as large as one third of its food supply. Besides, the importations seem to increase to face the demographical expansion of the country. However, those importations are mainly related to exotic products (such as bananas, rice...) which cannot grow in Switzerland. This leads to a depandance of Switzerland on distant countries, in some cases even countries undergoing political crises. 
 
-To avoid dependance of such an unstable network, Switzerland would have to increase its SSR score. We discussed several propositions regarding the territory organization, the varieties of crops harvested, the use of pesticides and fertilizers or the employment in agriculture field. 
+To avoid dependance of such an unstable network, Switzerland would have to increase its SSR score. We discussed several propositions regarding the territory organization, the variety of crops harvested, the use of pesticides and fertilizers or the employment in agriculture field. 
 
 ### What we didn't
-However, in spite of all the data gathered for this project, our model would still have been an over-simplistic view of the agriculutural economy. We therefore focused on finding ways to improve Switzerland self-sufficiency score rather than builing a statistically unrelevant model.
+However, in spite of all the data gathered for this project, the lack of strong correlations between production and the considered variables would have produced an unaccurate and over-simplistic view of the agriculutural economy of Switzerland. We therefore focused on exploring ways to improve Switzerland self-sufficiency ratio rather than builing a statistically unrelevant model.
 
 ### Personal contributions
 Our group worked as a very close team, so each of us worked on almost each part of the code and analysis. And repport.
