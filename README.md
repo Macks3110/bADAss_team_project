@@ -118,3 +118,5 @@ You can find the html versions of all our interactive plots inside the doc folde
 
 The **written PDF report** is also located in the doc folder.
 
+All the data necessary to run the notebook are present in the data folder.
+
